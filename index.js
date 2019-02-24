@@ -45,7 +45,7 @@ bot.on('message', function(user, userID, channelID, message, event) {
 
     bot.uploadFile({
       to: channelID,
-      file: "./wewe.jpg"
+      file: "https://media.discordapp.net/attachments/544157828810539011/549348151237279745/wewe.jpg"
     });
   }
   //-----------------------------------------------Attack souza function
