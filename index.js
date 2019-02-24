@@ -13,7 +13,7 @@ require('events').EventEmitter.defaultMaxListeners = 20;
 //---------------- Token (hidden)
 
 
-var bot = new Discord.Client(process.env.BOT_TOKEN);
+var bot = new Discord.Client(process.env.token);
 
 
 //--------------------------------------- Lah ybarek f 3mer sidi hello_world
