@@ -1,6 +1,9 @@
 {
   "name": "hexasslave",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.15.1"
+  },
   "description": "testbot",
   "main": "index.js",
   "scripts": {
@@ -12,9 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-    
 
 
-  
+
+
 
 }
