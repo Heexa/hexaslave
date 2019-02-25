@@ -42,11 +42,8 @@ bot.on('message', function(user, userID, channelID, message, event) {
   //-------------------------------- Wewe amine raghib funcntion
   if (message === "*wow") {
 
-
-    bbot.sendMessage({
-      to: channelID,
-      embed: {image:{url:"https://media.discordapp.net/attachments/544157828810539011/549348151237279745/wewe.jpg"}}
-    });
+bot.sendMessage({to: channelID, embed: {image: {url: "https://media.discordapp.net/attachments/544157828810539011/549348151237279745/wewe.jpg"}}});
+    
   }
   //-----------------------------------------------Attack souza function
   if (message === "*attack souza") {
