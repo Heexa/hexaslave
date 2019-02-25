@@ -43,9 +43,9 @@ bot.on('message', function(user, userID, channelID, message, event) {
   if (message === "*wow") {
 
 
-    bot.uploadFile({
+    bbot.sendMessage({
       to: channelID,
-      file: "https://media.discordapp.net/attachments/544157828810539011/549348151237279745/wewe.jpg"
+      embed: {image:{url:"https://media.discordapp.net/attachments/544157828810539011/549348151237279745/wewe.jpg"}}
     });
   }
   //-----------------------------------------------Attack souza function
